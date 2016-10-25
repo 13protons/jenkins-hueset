@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "13protons",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "hueset": "^1.0.1",
+    "lodash": "^4.16.4"
+  }
 }
