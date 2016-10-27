@@ -7,6 +7,7 @@ var defaults = require('./defaults.js');
 
 program
   .version('0.0.1')
+  .option('-c --config [path]', 'JSON file used to set program options', defaults.config)
   .option('-u, --user [value]', 'Hue User Name', defaults.user)
   .option('-i, --ip [value]', 'IP address of hue hub', defaults.ip)
   .option('-l, --light <n>', 'Light number (1, 2, etc.)', defaults.light)
