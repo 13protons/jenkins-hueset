@@ -8,5 +8,6 @@ module.exports = {
   warn: process.env.jenkinsWarn || 'yellow',
   building: process.env.jenkinsBuilding || 'blue',
   neutral: process.env.jenkinsNeutral || '#666',
-  config: process.env.jenksinsConfig || undefined
+  // config: process.env.jenksinsConfig || undefined,
+  jobName: process.env.jobName || 'myBuild'
 }
