@@ -6,7 +6,7 @@ Change the state of your hue lights based on the state of your Jenkins build ser
 
 ### Usage
 
-Command line of your jenkins box:
+Command line on your jenkins box:
 
 ```bash
 npm install -g jenkins-hueset
@@ -15,5 +15,9 @@ npm install -g jenkins-hueset
 In your 'Run Scripts' section of jenkins:
 
 ```bash
-jenkins-hueset --config='file://jenkins-config.json'
+jenkins-hueset --u '<hue_user>' -i '192.168.xx.xx' -l 1 -a 'http://localhost:8080' -j 'BuildName'
 ```
+
+This will change the color of light `1`, connected to the hue bridge located at `192.168.xx.xx` to the color of `BuildName` based on the Jenkins API hosted at `http://localhost:8080` as the hue user `<hue_user>`;
+
+To find your Phillips Hue IP and credentials, follow this [getting started guide](http://www.developers.meethue.com/documentation/getting-started).
