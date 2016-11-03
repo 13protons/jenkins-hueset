@@ -1,6 +1,6 @@
 {
   "name": "jenkins-hueset",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Set your Phillips hue lights based on the status of Jenkins CLI",
   "main": "index.js",
   "scripts": {
