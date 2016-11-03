@@ -1,6 +1,6 @@
 {
   "name": "jenkins-hueset",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set your Phillips hue lights based on the status of Jenkins CLI",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,14 @@
   },
   "author": "13protons",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanguir/jenkins-hueset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanguir/jenkins-hueset/issues"
+  },
+  "homepage": "https://github.com/alanguir/jenkins-hueset#readme",
   "dependencies": {
     "commander": "^2.9.0",
     "extend": "^3.0.0",
