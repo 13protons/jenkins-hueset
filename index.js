@@ -1,6 +1,10 @@
 var hue = require('hueset');
+var defaults = require('./defaults.js');
+var extend = require('extend');
 
-module.exports = function(program) {
+module.exports = function(params) {
+  var program = extend(defaults, params);
+
   var colorMap = {
     red: program.fail,
     red_anime: program.warn,
